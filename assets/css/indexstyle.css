@@ -4,7 +4,7 @@
 }
 html,body {
     height: 100%;
-    background-color: gray;
+    background-color: #e6e6e6;
 }
 /* header  */
 #header { 
@@ -13,21 +13,24 @@ html,body {
     width: 100%;
     overflow: hidden;
     align-content: center;
-    background-color: white;
+    background-color: #ffffff;
     border-bottom-style: solid;
-    border-bottom-color: black;
-    border-bottom-width: 5px;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 3px;
     }
 .name{
-    height: 15px;
-    
+    height: 40px;
+    position: absolute;
+    margin-left: 180px;
+    float: left;
+
 }
 h1 {
       float: left; 
-      color: white;
+      color: #ffffff;
       padding: 10px 12px;
       margin-left: 0;
-      background-color: red;
+      background-color: #4aaaa5;
    }
 #nav{
     overflow: hidden;
@@ -36,16 +39,16 @@ h1 {
     margin-right: auto;
     width: 960px;
     padding: 0;
-    background-color: black;
+    background-color:#ffffff;
 }
 
 li {
    float: right;
-   border-left: 2px solid white;  
+   border-left: 2px solid #777777;  
 }
 li a{
     display: block;
-    color:white;  
+    color: #777777;  
     text-align: center;
     padding: 16px 14px;
     text-decoration: none;
@@ -60,6 +63,7 @@ li a:hover{
 #container {
     min-height: 100%;
     padding: 5%;
+    
 }
 
 #main {
@@ -67,9 +71,9 @@ li a:hover{
     padding-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
-    background-color: whitesmoke;
+    background-color: #ffffff;
     width: 960px;
-    height: 300px;
+    height: 450px;
 }
 
 img {
@@ -82,7 +86,8 @@ img {
         margin: 2px 2px 2px 2px;
         padding: 5px 5px;
         width: 98%;
-        border-bottom: 2px solid gray;
+        border-bottom: 2px solid #dddddd;
+        color: #4aaaa5;
 }
 #box2{
     display: block;
@@ -91,13 +96,16 @@ img {
 p{
     text-align: left;
     padding-top: 10px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777
 }
 /* footer */
 #footer {
-    background-color: black;
+    background-color: #666666;
     border-top-style: solid;
-    border-top-width: 5px;
-    border-top-color: white;
+    border-top-width: 8px;
+    border-top-color: #4aaaa5;
     height: 50px;
     margin-top: -50px;
     clear: both;
