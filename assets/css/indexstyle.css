@@ -4,7 +4,7 @@
 }
 html,body {
     height: 100%;
-    background-color: #e6e6e6;
+    background-repeat: repeat;
 }
 /* header  */
 #header { 
@@ -21,7 +21,7 @@ html,body {
 .name{
     height: 40px;
     position: absolute;
-    margin-left: 180px;
+    margin-left: 195px;
     float: left;
 
 }
@@ -73,7 +73,7 @@ li a:hover{
     margin-right: auto;
     background-color: #ffffff;
     width: 960px;
-    height: 450px;
+    height: 550px;
 }
 
 img {
@@ -97,6 +97,7 @@ p{
     text-align: left;
     padding-top: 10px;
     letter-spacing: 2px;
+    line-height: 24px;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777
 }
@@ -110,6 +111,7 @@ p{
     margin-top: -50px;
     clear: both;
     color: white;
+    
 }
 h6 {
     text-align: center;
